@@ -21,6 +21,7 @@ use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\User\WalletController;
 use App\Http\Controllers\User\SocialiteController;
 use App\Http\Controllers\OTPController;
+use App\Http\Controllers\ApiDocsController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
@@ -68,6 +69,8 @@ Route::post('password/reset', [ResetPasswordController::class, 'reset'])->name('
 
 Route::view('instruction/page', 'instruction-page')->name('instructionPage');
 
+Route::get('/docs', [ApiDocsController::class, 'index'])->name('api.docs');
+Route::get('/developers', [ApiDocsController::class, 'index'])->name('api.docs.developers');
 
 Route::group(['middleware' => ['maintenanceMode']], function () use ($basicControl) {
 

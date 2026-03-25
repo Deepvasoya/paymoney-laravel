@@ -59,10 +59,11 @@
 </head>
 <body class="">
 @yield('content')
-@stack('script')
 
 <script src="{{ asset('assets/global/js/notiflix-aio-3.2.6.min.js') }}"></script>
 <script src="{{ asset($themeTrue.'js/jquery-3.6.1.min.js') }}"></script>
+
+@stack('script')
 
 @if (session()->has('success'))
     <script>

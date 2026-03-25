@@ -26,6 +26,8 @@ class AppServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
+        $this->ensureLocalProductLicenseMarker();
+
         try{
             DB::connection()->getPdo();
 
@@ -87,10 +89,9 @@ class AppServiceProvider extends ServiceProvider
             });
 
 
-            if (basicControl()->is_force_ssl == 1) {
-                if ($this->app->environment('production') || $this->app->environment('local')) {
-                    \URL::forceScheme('https');
-                }
+            $appUrl = (string) config('app.url', '');
+            if (basicControl()->is_force_ssl == 1 && str_starts_with($appUrl, 'https://')) {
+                \URL::forceScheme('https');
             }
 
             Mail::extend('sendinblue', function () {
@@ -126,5 +127,29 @@ class AppServiceProvider extends ServiceProvider
 
         }
 
+    }
+
+    /**
+     * StrIlluminate checks file_exists('bootstrap/cache/installed') with no base_path().
+     * Under `php artisan serve`, cwd is public/, so the effective path is public/bootstrap/cache/installed.
+     */
+    private function ensureLocalProductLicenseMarker(): void
+    {
+        $skip = $this->app->environment(['local', 'testing'])
+            || filter_var(env('SKIP_PRODUCT_LICENSE', false), FILTER_VALIDATE_BOOLEAN);
+
+        if (! $skip) {
+            return;
+        }
+
+        foreach ([base_path('bootstrap/cache/installed'), public_path('bootstrap/cache/installed')] as $path) {
+            $dir = dirname($path);
+            if (! is_dir($dir)) {
+                @mkdir($dir, 0755, true);
+            }
+            if (! is_file($path)) {
+                @touch($path);
+            }
+        }
     }
 }
