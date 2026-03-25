@@ -78,6 +78,11 @@
                     @if (($cat['id'] ?? '') === 'overview')
                         <div class="docs-nav-category mb-4 px-2" data-category="overview">
                             <a href="#overview" class="block rounded-md px-2 py-1.5 font-medium text-slate-800 hover:bg-slate-100 dark:text-slate-100 dark:hover:bg-slate-800">{{ $t($cat['label'] ?? '') }}</a>
+                            @foreach ($docs['overview_sections'] ?? [] as $osec)
+                                @if (!empty($osec['anchor']))
+                                    <a href="#{{ $osec['anchor'] }}" class="ml-3 mt-0.5 block rounded-md px-2 py-1 text-xs font-medium text-slate-500 hover:bg-slate-100 hover:text-slate-800 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-slate-100">{{ $t($osec['title'] ?? '') }}</a>
+                                @endif
+                            @endforeach
                         </div>
                     @else
                         @php $catEps = $endpointsByCategory->get($cat['id'], collect()); @endphp
@@ -113,7 +118,10 @@
                 <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">{{ $t($overviewCat['label'] ?? ['en' => 'Overview']) }}</h2>
                 <div class="mt-6 space-y-8">
                     @foreach ($docs['overview_sections'] ?? [] as $section)
-                        <div>
+                        <div
+                            @if (!empty($section['anchor'])) id="{{ $section['anchor'] }}" @endif
+                            @class(['scroll-mt-28' => !empty($section['anchor'])])
+                        >
                             <h3 class="text-lg font-semibold text-slate-800 dark:text-slate-200">{{ $t($section['title'] ?? '') }}</h3>
                             <div class="mt-2 text-slate-600 dark:text-slate-400">{!! $t($section['body'] ?? '') !!}</div>
                         </div>

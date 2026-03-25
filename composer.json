@@ -17,6 +17,7 @@
         "coingate/coingate-php": "^4.1",
         "doctrine/dbal": "^3.6",
         "flutterwavedev/flutterwave-v3": "^1.0",
+        "globalcitizen/php-iban": "^4.2",
         "google/auth": "^1.44",
         "guzzlehttp/guzzle": "^7.7",
         "hisorange/browser-detect": "^4.4",

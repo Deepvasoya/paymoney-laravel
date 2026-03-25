@@ -48,6 +48,16 @@ return [
                 'es' => 'Envía JSON con los encabezados <code class="px-1 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-sm">Content-Type</code> y <code class="px-1 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-sm">Accept</code> en <code class="px-1 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-sm">application/json</code>.',
             ],
         ],
+        [
+            'anchor' => 'iban',
+            'title' => ['en' => 'IBAN validation (php-iban)', 'es' => 'Validación IBAN (php-iban)'],
+            'body' => [
+                'en' => 'For bank-account fields (e.g. recipients, transfers), validate IBANs on the server or in tooling with <a href="https://github.com/globalcitizen/php-iban" class="text-violet-600 underline hover:text-violet-500 dark:text-violet-400" target="_blank" rel="noopener">globalcitizen/php-iban</a> (LGPL). It parses, validates checksums, supports many countries, SEPA flags, and human/machine formats.<br><br><strong>Install</strong>: <code class="mt-2 inline-block rounded bg-slate-200 px-1.5 py-0.5 font-mono text-sm dark:bg-slate-800">composer require globalcitizen/php-iban</code><br><br><strong>Example (PHP)</strong>:<pre class="mt-3 overflow-x-auto rounded-lg bg-slate-900 p-4 font-mono text-xs text-slate-100"><code>'
+                    . "if (!verify_iban(\$iban)) {\n    // reject invalid IBAN\n}\n\$machine = iban_to_machine_format(\$iban);\n\$suggestions = iban_mistranscription_suggestions(\$badIban);"
+                    . '</code></pre>Procedural functions load through Composer autoload (see the package <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">composer.json</code> <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">files</code> entry). See the <a href="https://github.com/globalcitizen/php-iban?tab=readme-ov-file" class="text-violet-600 underline dark:text-violet-400" target="_blank" rel="noopener">project README</a> for <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">verify_iban()</code>, national checksums, country registry helpers, and the optional OO wrapper.',
+                'es' => 'Para datos bancarios IBAN, puedes validar en servidor con <a href="https://github.com/globalcitizen/php-iban" class="text-violet-600 underline hover:text-violet-500 dark:text-violet-400" target="_blank" rel="noopener">globalcitizen/php-iban</a> (LGPL): análisis, checksum, muchos países, SEPA y formatos legibles/máquina.<br><br><strong>Instalación</strong>: <code class="mt-2 inline-block rounded bg-slate-200 px-1.5 py-0.5 font-mono text-sm dark:bg-slate-800">composer require globalcitizen/php-iban</code><br><br><strong>Ejemplo</strong>: <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">verify_iban($iban)</code>, <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">iban_to_machine_format()</code>. Documentación en el <a href="https://github.com/globalcitizen/php-iban?tab=readme-ov-file" class="text-violet-600 underline dark:text-violet-400" target="_blank" rel="noopener">README</a>.',
+            ],
+        ],
     ],
 
     // Blade / UI labels (docs page chrome)
