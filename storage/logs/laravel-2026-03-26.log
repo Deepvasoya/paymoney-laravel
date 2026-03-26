@@ -1,285 +1,222 @@
-[2026-03-26 00:34:58] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 00:34:58] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 00:35:04] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 00:35:04] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 00:35:27] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 00:35:27] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 00:36:04] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 03:03:15] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 04:38:33] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:06:19] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:06:22] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:06:22] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:06:28] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:06:28] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:06:32] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:06:32] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:06:55] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:06:55] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:07:13] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:10:07] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:10:07] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:16:14] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:17:18] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:17:18] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:17:25] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:17:25] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:18:28] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:18:45] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:18:45] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:18:57] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:18:57] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:18:59] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:18:59] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:20:16] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:20:16] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:21:28] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:21:28] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:21:36] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:21:36] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:21:46] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:21:46] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:22:18] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:22:18] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:22:31] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:22:31] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:22:36] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:22:36] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:23:27] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:23:45] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:23:45] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:23:53] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:23:53] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:23:55] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:23:55] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:24:39] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:24:39] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:24:54] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:24:54] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:25:15] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:25:15] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:25:31] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:25:31] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:25:43] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:25:43] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:26:00] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:26:00] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:26:46] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:26:46] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:26:55] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:26:55] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:27:02] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:27:02] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:27:58] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:27:58] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:28:24] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:28:24] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:28:30] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:28:30] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:28:36] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:28:36] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:28:44] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:28:44] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:29:03] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:29:03] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:29:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:29:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:29:09] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:29:09] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:29:16] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:29:16] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:29:23] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:29:23] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:29:25] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:29:25] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:30:07] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:30:07] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:30:19] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:30:19] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:31:43] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:31:43] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:31:56] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:31:56] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:08] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:08] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:08] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:12] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:12] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:17] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:17] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:22] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:22] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:27] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:27] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:45] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:45] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:53] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:53] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:56] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:32:56] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:33:52] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:33:52] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:34:02] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:34:02] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:34:02] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:34:35] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:34:54] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:35:08] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:35:22] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:35:39] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:35:40] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:36:07] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:36:35] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:38:00] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:38:00] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:38:04] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:38:04] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:38:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:38:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:38:12] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:38:12] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:38:16] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:38:16] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:38:26] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:38:26] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:38:55] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:39:08] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:39:14] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:40:07] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:57:20] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:57:29] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:58:57] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:59:25] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:59:25] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:59:35] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:59:35] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:59:37] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 18:59:37] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:02:03] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:02:03] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:02:16] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:02:16] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:03:07] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:03:34] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:03:34] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:03:40] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:03:40] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:03:42] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:03:42] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:05:27] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:05:27] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:05:32] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:05:32] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:05:42] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:05:42] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:05:47] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:05:47] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:06:03] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:06:03] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:06:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:06:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:06:09] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:06:09] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:06:11] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:06:11] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:06:39] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:06:39] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:06:42] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:06:42] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:06:42] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:07:05] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:07:09] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:07:24] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:07:46] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:07:51] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:08:37] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:09:38] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:13:50] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:13:50] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:14:35] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:14:35] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:14:40] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:14:40] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:14:44] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:14:44] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:14:47] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:14:47] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:14:50] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:14:50] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:14:55] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:14:55] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:14:57] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:14:57] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:23:04] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:23:04] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:23:41] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:23:51] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:24:55] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:25:02] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:25:13] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:25:34] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:25:44] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:26:33] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:26:47] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:46:39] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:49:20] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:50:13] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:50:13] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:51:00] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:51:00] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:51:05] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:51:05] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:52:50] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:52:50] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:52:54] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:52:54] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:53:48] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:14] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:14] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:20] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:20] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:26] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:26] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:30] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:30] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:32] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:32] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:35] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:35] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:38] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:38] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:41] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:41] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:44] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:44] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:47] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:47] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:50] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:54:50] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:55:00] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:55:00] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:55:05] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:55:05] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:55:09] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:55:09] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:56:03] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:56:03] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:56:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:56:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:56:08] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:56:08] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:56:56] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:56:56] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:57:00] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:57:00] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:57:00] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:57:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:57:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:57:37] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:57:42] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 19:58:32] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 20:00:15] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 20:00:31] local.WARNING: Expected $image to be a string, got: {"image":null} 
-[2026-03-26 20:03:45] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-03-26 00:00:40] local.ERROR: The provided cwd "/var/www/html/paymoney-laravel/public" does not exist. {"exception":"[object] (Symfony\\Component\\Process\\Exception\\RuntimeException(code: 0): The provided cwd \"/var/www/html/paymoney-laravel/public\" does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/process/Process.php:344)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php(154): Symfony\\Component\\Process\\Process->start()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php(93): Illuminate\\Foundation\\Console\\ServeCommand->startProcess()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Console\\ServeCommand->handle()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#7 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate\\Container\\Container->call()
+#8 /var/www/html/paymoney-laravel/vendor/symfony/console/Command/Command.php(326): Illuminate\\Console\\Command->execute()
+#9 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#10 /var/www/html/paymoney-laravel/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#11 /var/www/html/paymoney-laravel/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#12 /var/www/html/paymoney-laravel/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#13 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#14 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#15 {main}
+"} 
+[2026-03-26 00:19:11] local.ERROR: Undefined property: Illuminate\View\Factory::$yieldPushContent {"view":{"view":"/var/www/html/paymoney-laravel/resources/views/themes/light/layouts/app.blade.php","data":[]},"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined property: Illuminate\\View\\Factory::$yieldPushContent at /var/www/html/paymoney-laravel/resources/views/themes/light/layouts/app.blade.php:73)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('...')
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/View.php(190): Illuminate\\View\\View->getContents()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/View.php(159): Illuminate\\View\\View->renderContents()
+#7 /var/www/html/paymoney-laravel/resources/views/themes/light/auth/login.blade.php(177): Illuminate\\View\\View->render()
+#8 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('...')
+#9 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#10 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#11 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#12 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get()
+#13 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/View.php(190): Illuminate\\View\\View->getContents()
+#14 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/View.php(159): Illuminate\\View\\View->renderContents()
+#15 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#16 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#17 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(918): Illuminate\\Http\\Response->__construct()
+#18 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(885): Illuminate\\Routing\\Router::toResponse()
+#19 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(805): Illuminate\\Routing\\Router->prepareResponse()
+#20 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#21 /var/www/html/paymoney-laravel/app/Http/Middleware/RedirectIfAuthenticated.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\RedirectIfAuthenticated->handle()
+#23 /var/www/html/paymoney-laravel/app/Http/Middleware/MaintenanceMode.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\MaintenanceMode->handle()
+#25 /var/www/html/paymoney-laravel/vendor/strilluminate/default/src/Activereq/Activeck/M.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): StrIlluminate\\StrIlluminate\\Activereq\\Activeck\\M->handle()
+#27 /var/www/html/paymoney-laravel/app/Http/Middleware/Language.php(24): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\Language->handle()
+#29 /var/www/html/paymoney-laravel/app/Http/Middleware/ActivityByUser.php(34): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\ActivityByUser->handle()
+#31 /var/www/html/paymoney-laravel/app/Http/Middleware/CheckRememberToken.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\CheckRememberToken->handle()
+#33 /var/www/html/paymoney-laravel/app/Http/Middleware/ValidateRequestData.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#34 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\ValidateRequestData->handle()
+#35 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#37 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#38 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#39 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#41 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#43 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle()
+#44 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#45 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#46 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#47 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#48 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#49 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(805): Illuminate\\Pipeline\\Pipeline->then()
+#50 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack()
+#51 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\\Routing\\Router->runRoute()
+#52 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute()
+#53 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#54 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#55 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#56 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#57 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#58 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#59 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#60 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#61 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#62 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#63 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#64 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#65 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#66 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#67 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#68 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#69 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#70 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#71 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#72 /var/www/html/paymoney-laravel/public/index.php(36): Illuminate\\Foundation\\Http\\Kernel->handle()
+#73 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#74 {main}
+
+[previous exception] [object] (ErrorException(code: 0): Undefined property: Illuminate\\View\\Factory::$yieldPushContent at /var/www/html/paymoney-laravel/storage/framework/views/778d3c4731a3a6ef08ba24704ae03c77.php:73)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/html/paymoney-laravel/storage/framework/views/778d3c4731a3a6ef08ba24704ae03c77.php(73): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('...')
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get()
+#7 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/View.php(190): Illuminate\\View\\View->getContents()
+#8 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/View.php(159): Illuminate\\View\\View->renderContents()
+#9 /var/www/html/paymoney-laravel/storage/framework/views/5cc62d982c7660139c8cb4ba11ada2d3.php(208): Illuminate\\View\\View->render()
+#10 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('...')
+#11 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#12 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#13 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#14 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get()
+#15 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/View.php(190): Illuminate\\View\\View->getContents()
+#16 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/View.php(159): Illuminate\\View\\View->renderContents()
+#17 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#18 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#19 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(918): Illuminate\\Http\\Response->__construct()
+#20 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(885): Illuminate\\Routing\\Router::toResponse()
+#21 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(805): Illuminate\\Routing\\Router->prepareResponse()
+#22 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#23 /var/www/html/paymoney-laravel/app/Http/Middleware/RedirectIfAuthenticated.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\RedirectIfAuthenticated->handle()
+#25 /var/www/html/paymoney-laravel/app/Http/Middleware/MaintenanceMode.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\MaintenanceMode->handle()
+#27 /var/www/html/paymoney-laravel/vendor/strilluminate/default/src/Activereq/Activeck/M.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): StrIlluminate\\StrIlluminate\\Activereq\\Activeck\\M->handle()
+#29 /var/www/html/paymoney-laravel/app/Http/Middleware/Language.php(24): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\Language->handle()
+#31 /var/www/html/paymoney-laravel/app/Http/Middleware/ActivityByUser.php(34): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\ActivityByUser->handle()
+#33 /var/www/html/paymoney-laravel/app/Http/Middleware/CheckRememberToken.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#34 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\CheckRememberToken->handle()
+#35 /var/www/html/paymoney-laravel/app/Http/Middleware/ValidateRequestData.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\ValidateRequestData->handle()
+#37 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#38 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#39 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#41 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#43 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#45 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle()
+#46 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#47 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#48 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#49 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#50 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#51 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(805): Illuminate\\Pipeline\\Pipeline->then()
+#52 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack()
+#53 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\\Routing\\Router->runRoute()
+#54 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute()
+#55 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#56 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#57 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#58 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#59 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#60 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#61 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#62 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#63 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#64 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#65 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#66 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#67 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#68 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#69 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#70 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#71 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#72 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#73 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#74 /var/www/html/paymoney-laravel/public/index.php(36): Illuminate\\Foundation\\Http\\Kernel->handle()
+#75 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#76 {main}
+"} 
+[2026-03-26 20:56:43] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/paymoney-laravel/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/paymoney-laravel/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/paymoney-laravel/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/paymoney-laravel/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2026-03-26 20:56:46] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/paymoney-laravel/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/paymoney-laravel/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/paymoney-laravel/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/paymoney-laravel/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2026-03-26 20:56:49] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/paymoney-laravel/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/paymoney-laravel/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/paymoney-laravel/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/paymoney-laravel/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
