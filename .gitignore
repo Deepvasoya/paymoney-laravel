@@ -19,7 +19,9 @@ sftp-config.json
 _ide_helper_models.php
 /storage/app/backup
 /storage/cache_keys.json
-
+/assets/admin/js/theme.min.js
+/storage/main-cedar-391910-cd7c5ebfdd8b.json
+/public_html/SQL/install.sql
 __MACOSX
 /.phpintel
 /.php_cs.cache

@@ -52,10 +52,10 @@ return [
             'anchor' => 'iban',
             'title' => ['en' => 'IBAN validation (php-iban)', 'es' => 'Validación IBAN (php-iban)'],
             'body' => [
-                'en' => 'For bank-account fields (e.g. recipients, transfers), validate IBANs on the server or in tooling with <a href="https://github.com/globalcitizen/php-iban" class="text-violet-600 underline hover:text-violet-500 dark:text-violet-400" target="_blank" rel="noopener">globalcitizen/php-iban</a> (LGPL). It parses, validates checksums, supports many countries, SEPA flags, and human/machine formats.<br><br><strong>Install</strong>: <code class="mt-2 inline-block rounded bg-slate-200 px-1.5 py-0.5 font-mono text-sm dark:bg-slate-800">composer require globalcitizen/php-iban</code><br><br><strong>Example (PHP)</strong>:<pre class="mt-3 overflow-x-auto rounded-lg bg-slate-900 p-4 font-mono text-xs text-slate-100"><code>'
+                'en' => 'For bank-account fields (e.g. recipients, transfers), validate IBANs on the server or in tooling with <a href="https://github.com/globalcitizen/php-iban" class="text-blue-600 underline hover:text-blue-500 dark:text-blue-400" target="_blank" rel="noopener">globalcitizen/php-iban</a> (LGPL). It parses, validates checksums, supports many countries, SEPA flags, and human/machine formats.<br><br><strong>Install</strong>: <code class="mt-2 inline-block rounded bg-slate-200 px-1.5 py-0.5 font-mono text-sm dark:bg-slate-800">composer require globalcitizen/php-iban</code><br><br><strong>Example (PHP)</strong>:<pre class="mt-3 overflow-x-auto rounded-lg bg-slate-900 p-4 font-mono text-xs text-slate-100"><code>'
                     . "if (!verify_iban(\$iban)) {\n    // reject invalid IBAN\n}\n\$machine = iban_to_machine_format(\$iban);\n\$suggestions = iban_mistranscription_suggestions(\$badIban);"
-                    . '</code></pre>Procedural functions load through Composer autoload (see the package <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">composer.json</code> <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">files</code> entry). See the <a href="https://github.com/globalcitizen/php-iban?tab=readme-ov-file" class="text-violet-600 underline dark:text-violet-400" target="_blank" rel="noopener">project README</a> for <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">verify_iban()</code>, national checksums, country registry helpers, and the optional OO wrapper.',
-                'es' => 'Para datos bancarios IBAN, puedes validar en servidor con <a href="https://github.com/globalcitizen/php-iban" class="text-violet-600 underline hover:text-violet-500 dark:text-violet-400" target="_blank" rel="noopener">globalcitizen/php-iban</a> (LGPL): análisis, checksum, muchos países, SEPA y formatos legibles/máquina.<br><br><strong>Instalación</strong>: <code class="mt-2 inline-block rounded bg-slate-200 px-1.5 py-0.5 font-mono text-sm dark:bg-slate-800">composer require globalcitizen/php-iban</code><br><br><strong>Ejemplo</strong>: <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">verify_iban($iban)</code>, <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">iban_to_machine_format()</code>. Documentación en el <a href="https://github.com/globalcitizen/php-iban?tab=readme-ov-file" class="text-violet-600 underline dark:text-violet-400" target="_blank" rel="noopener">README</a>.',
+                    . '</code></pre>Procedural functions load through Composer autoload (see the package <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">composer.json</code> <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">files</code> entry). See the <a href="https://github.com/globalcitizen/php-iban?tab=readme-ov-file" class="text-blue-600 underline dark:text-blue-400" target="_blank" rel="noopener">project README</a> for <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">verify_iban()</code>, national checksums, country registry helpers, and the optional OO wrapper.',
+                'es' => 'Para datos bancarios IBAN, puedes validar en servidor con <a href="https://github.com/globalcitizen/php-iban" class="text-blue-600 underline hover:text-blue-500 dark:text-blue-400" target="_blank" rel="noopener">globalcitizen/php-iban</a> (LGPL): análisis, checksum, muchos países, SEPA y formatos legibles/máquina.<br><br><strong>Instalación</strong>: <code class="mt-2 inline-block rounded bg-slate-200 px-1.5 py-0.5 font-mono text-sm dark:bg-slate-800">composer require globalcitizen/php-iban</code><br><br><strong>Ejemplo</strong>: <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">verify_iban($iban)</code>, <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">iban_to_machine_format()</code>. Documentación en el <a href="https://github.com/globalcitizen/php-iban?tab=readme-ov-file" class="text-blue-600 underline dark:text-blue-400" target="_blank" rel="noopener">README</a>.',
             ],
         ],
     ],
@@ -91,11 +91,17 @@ return [
         'copied' => ['en' => 'Copied', 'es' => 'Copiado'],
         'code_examples' => ['en' => 'Code examples', 'es' => 'Ejemplos de código'],
         'try_api' => ['en' => 'Try API', 'es' => 'Probar API'],
+        'try_api_hint' => [
+            'en' => 'Sends a request from your browser to this site’s /api routes (same origin).',
+            'es' => 'Envía una petición desde el navegador a las rutas /api de este sitio (mismo origen).',
+        ],
         'try_path' => ['en' => 'Path (after /api/)', 'es' => 'Ruta (después de /api/)'],
         'try_body' => ['en' => 'Request body (JSON)', 'es' => 'Cuerpo (JSON)'],
         'send' => ['en' => 'Send request', 'es' => 'Enviar'],
         'response' => ['en' => 'Response', 'es' => 'Respuesta'],
         'open_menu' => ['en' => 'Open menu', 'es' => 'Menú'],
+        'print_save_pdf' => ['en' => 'Print / Save as PDF', 'es' => 'Imprimir / Guardar PDF'],
+        'more_languages' => ['en' => 'More languages', 'es' => 'Más lenguajes'],
         'no_params' => ['en' => 'No parameters.', 'es' => 'Sin parámetros.'],
         'no_headers_extra' => ['en' => 'No extra headers beyond Accept where noted.', 'es' => 'Sin cabeceras extra salvo Accept donde se indique.'],
     ],

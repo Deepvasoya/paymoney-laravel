@@ -40,7 +40,12 @@ class CardController extends Controller
                     $orderLock = 'true';
                 }
             }
-            $data['cardOrder'] = VirtualCardOrder::where('user_id', auth()->id())->where('status', '!=', 1)->latest()->first();
+            $data['cardOrder'] = VirtualCardOrder::where('user_id', auth()->id())
+                ->where('status', 2)
+                ->where('resubmitted', 1)
+                ->whereRelation('cardMethod', 'status', 1)
+                ->latest()
+                ->first();
             $data['approveCards'] = VirtualCardOrder::cards()->where('user_id', auth()->id())->latest()->get();
             $data['orderLock'] = $orderLock;
             $data['cardCharge'] = currencyPosition($basicControl->v_card_charge);
@@ -106,13 +111,26 @@ class CardController extends Controller
             }
             $reqFieldSpecification = $this->processFormFields($request, $virtualCardMethod);
 
-            if ($type == 'submit') {
+            if ($type === 'submit') {
                 $virtualCardOrder = new VirtualCardOrder();
                 $virtualCardOrder->status = 4;
+                $virtualCardOrder->virtual_card_method_id = $virtualCardMethod->id;
+                $virtualCardOrder->user_id = auth()->id();
             } else {
+                // Must match web VirtualCardController::orderReSubmit — same rejected order + provider
                 $virtualCardOrder = VirtualCardOrder::where('user_id', auth()->id())
+                    ->where('status', 2)
+                    ->where('resubmitted', 1)
+                    ->where('virtual_card_method_id', $virtualCardMethod->id)
                     ->latest()
                     ->first();
+
+                if (! $virtualCardOrder) {
+                    return response()->json($this->withError(
+                        'No virtual card order is eligible for resubmit. The latest order must be rejected (status) by admin with “allow resubmit” enabled, and use the active card provider.'
+                    ));
+                }
+
                 $virtualCardOrder->status = 3;
             }
 

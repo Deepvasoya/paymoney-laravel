@@ -71,6 +71,9 @@ Route::view('instruction/page', 'instruction-page')->name('instructionPage');
 
 Route::get('/docs', [ApiDocsController::class, 'index'])->name('api.docs');
 Route::get('/developers', [ApiDocsController::class, 'index'])->name('api.docs.developers');
+// Singular / alternate URLs (clients often bookmark /developer or /develop — avoids 404)
+Route::get('/developer', [ApiDocsController::class, 'index'])->name('api.docs.developer');
+Route::get('/develop', [ApiDocsController::class, 'index'])->name('api.docs.develop');
 
 Route::group(['middleware' => ['maintenanceMode']], function () use ($basicControl) {
 
