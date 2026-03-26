@@ -70,7 +70,13 @@
 
     @stack('loadModal')
 
-    {{-- jQuery + theme libs first; stacks (script/js-lib) load below --}}
+    <!-- JS Global Compulsory  -->
+    <script src="{{ asset('assets/global/js/notiflix-aio-3.2.6.min.js') }}"></script>
+    <script src="{{ asset('assets/global/js/vue.min.js') }}"></script>
+    <script src="{{ asset('assets/global/js/axios.min.js') }}"></script>
+    <script src="{{ asset('assets/global/js/pusher.min.js') }}"></script>
+
+    <!-- JS Library -->
     <script src="{{ asset($themeTrue.'js/jquery-3.6.1.min.js') }}"></script>
     <script src="{{ asset($themeTrue.'js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset($themeTrue.'js/owl.carousel.min.js') }}"></script>
@@ -82,11 +88,6 @@
     <script src="{{ asset($themeTrue.'js/flatpickr.js') }}"></script>
     <!-- Main Js link -->
     <script src="{{ asset($themeTrue.'js/main.js') }}"></script>
-
-    <script src="{{ asset('assets/global/js/notiflix-aio-3.2.6.min.js') }}"></script>
-    <script src="{{ asset('assets/global/js/vue.min.js') }}"></script>
-    <script src="{{ asset('assets/global/js/axios.min.js') }}"></script>
-    <script src="{{ asset('assets/global/js/pusher.min.js') }}"></script>
 
     @stack('js-lib')
 
