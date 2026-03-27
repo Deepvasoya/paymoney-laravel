@@ -99,6 +99,7 @@
             <div class="mx-2 hidden h-6 w-px bg-zinc-200 dark:bg-zinc-700 sm:block"></div>
             <p class="hidden min-w-0 flex-1 truncate text-sm text-zinc-500 dark:text-zinc-400 md:block">{{ $t($docs['meta']['description'] ?? '') }}</p>
             <div class="ml-auto flex flex-wrap items-center justify-end gap-2">
+                <a href="{{ url('/docs/openapi.json') }}" download="openapi.json" class="docs-print-hide hidden rounded-md border border-zinc-200 bg-white px-2.5 py-1.5 text-xs font-medium text-zinc-700 hover:bg-zinc-50 dark:border-zinc-600 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:bg-zinc-800 sm:inline-block no-underline">{{ $t($ui['openapi_spec'] ?? ['en' => 'OpenAPI (Postman)']) }}</a>
                 <button type="button" onclick="window.print()" class="docs-print-hide hidden rounded-md border border-zinc-200 bg-white px-2.5 py-1.5 text-xs font-medium text-zinc-700 hover:bg-zinc-50 dark:border-zinc-600 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:bg-zinc-800 sm:inline-block">{{ $t($ui['print_save_pdf'] ?? ['en' => 'Print / Save as PDF']) }}</button>
                 <div class="docs-print-hide flex flex-wrap items-center gap-1.5 border-l border-zinc-200 pl-2 dark:border-zinc-700 sm:pl-3">
                     <label class="sr-only" for="docs-bearer-token">{{ $t($ui['bearer_token'] ?? 'Bearer token') }}</label>

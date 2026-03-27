@@ -69,6 +69,7 @@ Route::post('password/reset', [ResetPasswordController::class, 'reset'])->name('
 
 Route::view('instruction/page', 'instruction-page')->name('instructionPage');
 
+Route::get('/docs/openapi.json', [ApiDocsController::class, 'openapi'])->name('api.docs.openapi');
 Route::get('/docs', [ApiDocsController::class, 'index'])->name('api.docs');
 Route::get('/developers', [ApiDocsController::class, 'index'])->name('api.docs.developers');
 // Singular / alternate URLs (clients often bookmark /developer or /develop — avoids 404)

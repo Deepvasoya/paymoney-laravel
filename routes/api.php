@@ -18,6 +18,7 @@ use App\Http\Controllers\API\DepositController;
 use App\Http\Controllers\API\TwoFASecurityController;
 use App\Http\Controllers\API\VerificationController;
 use App\Http\Controllers\API\CardController;
+use App\Http\Controllers\API\PayMoneyPaymentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,6 +39,12 @@ Route::post('virtual-card/ufitpay/callback', [VirtualCardController::class, 'ufi
 Route::post('virtual-card/flutterwave/callback', [VirtualCardController::class, 'flutterwavedCallBack'])->name('flutterwave.Callback');
 Route::post('payout/{code}', [VirtualCardController::class, 'payout'])->name('payout');
 
+/*
+| PayMoney / partner payment API (see config/paymoney.php).
+| Webhook is public — protect with signature (PAYMONEY_WEBHOOK_SECRET) in production.
+*/
+Route::post('payments/webhook', [PayMoneyPaymentController::class, 'webhook'])
+    ->middleware('throttle:120,1');
 
 /*=== API For Application ===*/
 Route::get('app-config', [HomeController::class, 'appConfig']);
@@ -155,6 +162,10 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::post('card-payment', [PaymentController::class, 'cardPayment']);
         Route::post('payment-done', [PaymentController::class, 'paymentDone']);
         Route::get('payment-webview', [PaymentController::class, 'paymentWebview']);
+
+        /* PayMoney partner payments (Sanctum) */
+        Route::post('payments/initiate', [PayMoneyPaymentController::class, 'initiate']);
+        Route::get('payments/{id}', [PayMoneyPaymentController::class, 'show'])->whereNumber('id');
 
         /* Virtual Card */
         Route::get('virtual-cards', [CardController::class, 'index']);

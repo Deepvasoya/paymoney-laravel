@@ -30,7 +30,7 @@ return [
         [
             'title' => ['en' => 'Base URL', 'es' => 'URL base'],
             'body' => [
-                'en' => 'All API routes live under <code class="px-1 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-sm">/api</code>. Use <code class="px-1 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-sm">https://your-domain.com/api/…</code> in production.',
+                'en' => 'All API routes live under <code class="px-1 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-sm">/api</code>. Use <code class="px-1 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-sm">https://your-domain.com/api/…</code> in production. For Postman, Insomnia, or code generators, import <a href="/docs/openapi.json" class="text-blue-600 underline hover:text-blue-500 dark:text-blue-400 font-mono text-sm">/docs/openapi.json</a> (OpenAPI 3).',
                 'es' => 'Todas las rutas están bajo <code class="px-1 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-sm">/api</code>.',
             ],
         ],
@@ -46,6 +46,14 @@ return [
             'body' => [
                 'en' => 'Send JSON bodies with <code class="px-1 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-sm">Content-Type: application/json</code> and <code class="px-1 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-sm">Accept: application/json</code> unless noted.',
                 'es' => 'Envía JSON con los encabezados <code class="px-1 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-sm">Content-Type</code> y <code class="px-1 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-sm">Accept</code> en <code class="px-1 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-sm">application/json</code>.',
+            ],
+        ],
+        [
+            'anchor' => 'paymoney',
+            'title' => ['en' => 'PayMoney partner payments', 'es' => 'Pagos partner PayMoney'],
+            'body' => [
+                'en' => 'Partner / external PSP integration via <code class="rounded bg-slate-200 px-1 font-mono text-sm dark:bg-slate-800">PayMoneyService</code> and <code class="rounded bg-slate-200 px-1 font-mono text-sm dark:bg-slate-800">PayMoneyPaymentController</code>. Endpoints (category <strong>Payments &amp; deposits</strong>): <code class="rounded bg-slate-200 px-1 font-mono text-sm dark:bg-slate-800">POST /api/payments/initiate</code> (Bearer + verified user), <code class="rounded bg-slate-200 px-1 font-mono text-sm dark:bg-slate-800">POST /api/payments/webhook</code> (no Bearer; HMAC when <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">PAYMONEY_WEBHOOK_SECRET</code> is set), <code class="rounded bg-slate-200 px-1 font-mono text-sm dark:bg-slate-800">GET /api/payments/{id}</code>. Configure <code class="rounded bg-slate-200 px-1 font-mono text-sm dark:bg-slate-800">config/paymoney.php</code> and <code class="rounded bg-slate-200 px-1 font-mono text-sm dark:bg-slate-800">.env</code> (<code class="rounded bg-slate-200 px-1 dark:bg-slate-800">PAYMONEY_BASE_URL</code>, <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">PAYMONEY_API_KEY</code>, <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">PAYMONEY_API_SECRET</code>). Local testing: <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">PAYMONEY_MOCK=true</code>.',
+                'es' => 'Integración PSP: <code class="rounded bg-slate-200 px-1 font-mono text-sm dark:bg-slate-800">POST /api/payments/initiate</code>, <code class="rounded bg-slate-200 px-1 font-mono text-sm dark:bg-slate-800">POST /api/payments/webhook</code>, <code class="rounded bg-slate-200 px-1 font-mono text-sm dark:bg-slate-800">GET /api/payments/{id}</code>. Configuración en <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">config/paymoney.php</code> y variables <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">PAYMONEY_*</code>. Pruebas: <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">PAYMONEY_MOCK=true</code>.',
             ],
         ],
         [
@@ -101,6 +109,7 @@ return [
         'response' => ['en' => 'Response', 'es' => 'Respuesta'],
         'open_menu' => ['en' => 'Open menu', 'es' => 'Menú'],
         'print_save_pdf' => ['en' => 'Print / Save as PDF', 'es' => 'Imprimir / Guardar PDF'],
+        'openapi_spec' => ['en' => 'OpenAPI (Postman)', 'es' => 'OpenAPI (Postman)'],
         'more_languages' => ['en' => 'More languages', 'es' => 'Más lenguajes'],
         'no_params' => ['en' => 'No parameters.', 'es' => 'Sin parámetros.'],
         'no_headers_extra' => ['en' => 'No extra headers beyond Accept where noted.', 'es' => 'Sin cabeceras extra salvo Accept donde se indique.'],

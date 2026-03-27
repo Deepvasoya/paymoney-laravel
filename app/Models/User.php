@@ -198,4 +198,10 @@ class User extends Authenticatable
         return $this->belongsTo(User::class, 'referral_id', 'id');
     }
 
+    /** Partner PayMoney / external PSP rows (table: payments). */
+    public function payMoneyPayments()
+    {
+        return $this->hasMany(Payment::class);
+    }
+
 }
