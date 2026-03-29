@@ -19,6 +19,7 @@ use App\Http\Controllers\API\TwoFASecurityController;
 use App\Http\Controllers\API\VerificationController;
 use App\Http\Controllers\API\CardController;
 use App\Http\Controllers\API\PayMoneyPaymentController;
+use App\Http\Controllers\API\VisaEligibilityController;
 
 /*
 |--------------------------------------------------------------------------
@@ -177,6 +178,11 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::post('virtual-card/block/{id}', [CardController::class, 'cardBlock']);
         Route::get('virtual-card/transaction/{id?}', [CardController::class, 'cardTransaction']);
 
+        /**
+         * Visa Card Eligibility Service (VCES) — server proxy; configure config/visa.php + .env.
+         * @see https://developer.visa.com/capabilities/vces/reference
+         */
+        Route::post('visa/card-eligibility/validate', [VisaEligibilityController::class, 'validateEligibility']);
 
     });
 

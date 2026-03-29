@@ -1129,4 +1129,37 @@ return [
         ],
         'request_body' => null,
     ]),
+
+    // ——— Visa Card Eligibility Service (VCES) — proxy — https://developer.visa.com/capabilities/vces/reference
+    api_docs_ep([
+        'id' => 'visa-card-eligibility-validate',
+        'category' => 'visa-eligibility',
+        'method' => 'POST',
+        'path' => 'visa/card-eligibility/validate',
+        'title' => 'Visa — card eligibility validate (VCES proxy)',
+        'title_es' => 'Visa — validar elegibilidad (proxy VCES)',
+        'desc' => 'Proxies to Visa POST …/visacardeligibilityservices/v1/cardeligibility/validate. Wrap the exact Visa JSON body inside a top-level "request" object so the mobile app never holds Visa credentials. Align inner fields with the official spec: https://developer.visa.com/capabilities/vces/reference — PCI: avoid logging bodies.',
+        'desc_es' => 'Proxy hacia Visa VCES validate. Cuerpo interno según OpenAPI de Visa dentro de "request".',
+        'requires_auth' => true,
+        'headers' => array_merge(api_docs_auth_headers(), [['name' => 'Content-Type', 'value' => 'application/json', 'required' => true]]),
+        'parameters' => [],
+        'request_body' => [
+            'request' => [],
+        ],
+        'response_success' => api_docs_std_ok([
+            'status' => 'success',
+            'data' => ['eligibility' => '…', 'mock' => false],
+        ]),
+        'response_error' => ['status' => 502, 'body' => ['status' => 'error', 'message' => 'Visa API base URL is not configured.']],
+        'status_codes' => [
+            ['code' => 200, 'description' => ['en' => 'Visa returned success payload', 'es' => 'Respuesta Visa OK']],
+            ['code' => 401, 'description' => ['en' => 'Unauthenticated', 'es' => 'No autenticado']],
+            ['code' => 403, 'description' => ['en' => 'Verification / KYC', 'es' => 'Verificación']],
+            ['code' => 422, 'description' => ['en' => 'Validation', 'es' => 'Validación']],
+            ['code' => 502, 'description' => ['en' => 'Visa upstream or misconfiguration', 'es' => 'Error Visa o configuración']],
+        ],
+        'notes' => [
+            ['en' => 'Service: App\Services\VisaCardEligibilityService; config: config/visa.php.', 'es' => 'Servicio VisaCardEligibilityService.'],
+        ],
+    ]),
 ];

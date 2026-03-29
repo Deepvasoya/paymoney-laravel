@@ -57,6 +57,14 @@ return [
             ],
         ],
         [
+            'anchor' => 'visa-vces',
+            'title' => ['en' => 'Visa Card Eligibility (VCES)', 'es' => 'Visa Card Eligibility (VCES)'],
+            'body' => [
+                'en' => 'Server-side proxy to <strong>Visa Card Eligibility Service</strong> (validate). Official API reference: <a href="https://developer.visa.com/capabilities/vces/reference" class="text-blue-600 underline hover:text-blue-500 dark:text-blue-400" target="_blank" rel="noopener">developer.visa.com — VCES</a>. App endpoint: <code class="rounded bg-slate-200 px-1 font-mono text-sm dark:bg-slate-800">POST /api/visa/card-eligibility/validate</code> with JSON body <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">{ "request": { … } }</code> — inner object must match Visa’s OpenAPI (do not log PAN). Configure <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">config/visa.php</code> and <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">VISA_*</code> in <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">.env</code> (base URL, Basic auth, mTLS cert paths). Use <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">VISA_MOCK=true</code> for local stubs.',
+                'es' => 'Proxy servidor hacia Visa VCES. Documentación: <a href="https://developer.visa.com/capabilities/vces/reference" class="text-blue-600 underline dark:text-blue-400" target="_blank" rel="noopener">Visa Developer</a>. Endpoint: <code class="rounded bg-slate-200 px-1 font-mono text-sm dark:bg-slate-800">POST /api/visa/card-eligibility/validate</code>. Configuración: <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">VISA_*</code> y <code class="rounded bg-slate-200 px-1 dark:bg-slate-800">VISA_MOCK</code>.',
+            ],
+        ],
+        [
             'anchor' => 'iban',
             'title' => ['en' => 'IBAN validation (php-iban)', 'es' => 'Validación IBAN (php-iban)'],
             'body' => [
@@ -133,6 +141,7 @@ return [
         ['id' => 'transfers', 'label' => ['en' => 'Money transfers', 'es' => 'Transferencias'], 'icon' => 'arrow-right-left'],
         ['id' => 'payments', 'label' => ['en' => 'Payments & deposits', 'es' => 'Pagos'], 'icon' => 'credit-card'],
         ['id' => 'virtual-cards', 'label' => ['en' => 'Virtual cards', 'es' => 'Tarjetas virtuales'], 'icon' => 'card'],
+        ['id' => 'visa-eligibility', 'label' => ['en' => 'Visa (VCES)', 'es' => 'Visa (VCES)'], 'icon' => 'credit-card'],
     ],
 
     'endpoints' => require __DIR__.'/api-docs-endpoints.php',

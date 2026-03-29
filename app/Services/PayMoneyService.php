@@ -44,8 +44,12 @@ class PayMoneyService
         $secret = config('paymoney.api_secret');
         $type = (string) config('paymoney.auth.type', 'headers');
 
-        if ($type === 'bearer' && $key) {
-            return $request->withToken($key);
+        // Flutterwave / many PSPs: Bearer {secret_key}. Prefer secret, fall back to key.
+        if ($type === 'bearer') {
+            $token = ($secret !== null && $secret !== '') ? $secret : $key;
+            if ($token) {
+                return $request->withToken($token);
+            }
         }
 
         if ($type === 'basic' && $key !== null && $key !== '' && $secret !== null) {

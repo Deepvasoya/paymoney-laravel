@@ -1,4 +1,4 @@
-[2026-03-28 01:23:29] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php:223)
+[2026-03-29 02:55:20] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php:223)
 [stacktrace]
 #0 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
 #1 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
@@ -13,7 +13,7 @@
 #10 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #11 {main}
 "} 
-[2026-03-28 01:23:33] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php:223)
+[2026-03-29 02:55:22] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php:223)
 [stacktrace]
 #0 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
 #1 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
@@ -28,7 +28,7 @@
 #10 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #11 {main}
 "} 
-[2026-03-28 01:23:36] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php:223)
+[2026-03-29 02:55:25] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php:223)
 [stacktrace]
 #0 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
 #1 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
@@ -43,7 +43,7 @@
 #10 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #11 {main}
 "} 
-[2026-03-28 10:13:04] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php:223)
+[2026-03-29 17:09:00] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php:223)
 [stacktrace]
 #0 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
 #1 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
@@ -58,7 +58,7 @@
 #10 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #11 {main}
 "} 
-[2026-03-28 10:13:07] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php:223)
+[2026-03-29 17:09:04] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php:223)
 [stacktrace]
 #0 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
 #1 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
@@ -73,7 +73,7 @@
 #10 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #11 {main}
 "} 
-[2026-03-28 10:13:10] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php:223)
+[2026-03-29 17:09:06] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php:223)
 [stacktrace]
 #0 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
 #1 /var/www/html/paymoney-laravel/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
@@ -87,4 +87,8 @@
 #9 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
 #10 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #11 {main}
+"} 
+[2026-03-29 17:11:47] local.ERROR: Declaration of App\Http\Controllers\API\VisaEligibilityController::validate(Illuminate\Http\Request $request): Illuminate\Http\JsonResponse must be compatible with App\Http\Controllers\Controller::validate(Illuminate\Http\Request $request, array $rules, array $messages = [], array $attributes = []) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\Http\\Controllers\\API\\VisaEligibilityController::validate(Illuminate\\Http\\Request $request): Illuminate\\Http\\JsonResponse must be compatible with App\\Http\\Controllers\\Controller::validate(Illuminate\\Http\\Request $request, array $rules, array $messages = [], array $attributes = []) at /var/www/html/paymoney-laravel/app/Http/Controllers/API/VisaEligibilityController.php:31)
+[stacktrace]
+#0 {main}
 "} 

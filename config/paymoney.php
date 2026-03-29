@@ -12,6 +12,11 @@ return [
 
     'api_secret' => env('PAYMONEY_API_SECRET'),
 
+    /**
+     * Used for client-side card encryption (e.g. Flutterwave style) if you add charge flows later.
+     */
+    'encryption_key' => env('PAYMONEY_ENCRYPTION_KEY'),
+
     'timeout' => (int) env('PAYMONEY_TIMEOUT', 30),
 
     /**
